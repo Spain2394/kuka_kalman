@@ -6,8 +6,7 @@
   <node name="sensor_model" pkg="kuka_kickass_kalman" type="sensor_model.py" />
   <node name="Move_You" pkg="kuka_kickass_kalman" type="Move_You.py" />
   <node name="kf_node" pkg="kuka_kickass_kalman" type="kf_node.py">
-  <<remap from="/cmd_vel" to=""/>
-
+  <remap from="/cmd_vel" to=""/>
   </node>
 </launch>
 
