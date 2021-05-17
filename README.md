@@ -1,4 +1,4 @@
-# kuka_kickass_kalman
+# kuka_kalman
 Localize omnidirectional robot in Gazebo 
 
 # Getting Started
